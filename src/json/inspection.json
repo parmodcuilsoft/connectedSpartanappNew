@@ -1,0 +1,157 @@
+{
+  "AXLES AND BRAKES": [
+      {
+        "label": "FRONT AXLE WHEEL BEARINGS:",
+        "content": "Check oil level"
+      },
+      { 
+        "label": "TAG AXLE WHEEL BEARINGS:",
+        "content": "Check oil level"
+      },
+      {
+        "label": "REAR AXLE:",
+        "content": "Check for leaks"
+      },
+      {
+        "label": "PARK BRAKE:",
+        "content": "Check operation"
+      },
+      {
+        "label": "SERVICE BRAKES:",
+        "content": "Check operation"
+      }
+  ],
+  "AIR SYSTEM": [
+      {
+        "label": "AIR TANKS WITH MANUAL EJECTORS:",
+        "content": "Remove moisture"
+      },
+      {
+        "label": "AIR TANKS WITH AUTOMATIC EJECTORS:",
+        "content": "Check operation"
+      },
+      {
+        "label": "AIR DRYER OPERATION:",
+        "content": "Check operation"
+      }
+  ],
+  "ELECTRICAL": [
+      {
+        "label": "BATTERIES/BATTERY CABLES:",
+        "content": "Check for corrosion, loose connections"
+      },
+      {
+        "label": "VISUAL INSPECTION OF FUSE PANELS:",
+        "content": "Check for corrosion, blown fuses"
+      }
+  ],
+  "ENGINE, COOLING AND EXHAUST": [
+      {
+        "label": "AIR INTAKE PIPING/TUBING:",
+        "content": "Check for loose, punctured or worn pieces"
+      },
+      {
+        "label": "AIR CLEANER AIRFLOW RESTRICTION GAUGE:",
+        "content": "Restriction indicator reading"
+      },
+      {
+        "label": "ENGINE COOLING FAN:",
+        "content": "Check for nicks, cracks or loose pieces"
+      },
+      {
+        "label": "MECHANICAL FAN DRIVE GEAR BOX:",
+        "content": "Check for leaks"
+      },
+      {
+        "label": "ENGINE OIL:",
+        "content": "Check fluid level"
+      },
+      {
+        "label": "ENGINE COOLANT LEVEL:",
+        "content": "Check coolant level"
+      },
+      {
+        "label": "ENGINE DRIVE AND ACCESSORY BELTS:",
+        "content": "Check for wear"
+      },
+      {
+        "label": "DIESEL EXHAUST FLUID (DEF) LEVEL:",
+        "content":
+          "Check fluid level (if stored, refer to chassis storage and periods of non-use section for further information)."
+      },
+      {
+        "label": "FUEL/WATER SEPARATOR:",
+        "content": "Drain checking for presence of water"
+      },
+      {
+        "label": "RADIATOR AND CHARGE AIR COOLER:",
+        "content": "Presence of debris/damage"
+      },
+      {
+        "label": "COOLANT HOSES, PIPES AND CLAMPS:",
+        "content": "Check for leaks, loose clamps and chafing"
+      },
+      {
+        "label": "CHECK EXHAUST PIPING AND MUFFLER:",
+        "content": "Check that all components are secure"
+      },
+      {
+        "label": "CRANKCASE BREATHER TUBE:",
+        "content": "Check for blockage"
+      }
+  ],
+  "TRANSMISSION": [
+      {
+        "label": "TRANSMISSION FLUID:",
+        "content": "Check fluid level"
+      }
+  ],
+  "STEERING": [
+      {
+        "label": "HYDRAULIC STEERING SYSTEM:",
+        "content": "Check for leaks"
+      },
+      {
+        "label": "HYDRAULIC RESERVOIR:",
+        "content": "Check fluid level"
+      },
+      {
+        "label": "STEERING WHEEL:",
+        "content": "Check for excessive play"
+      }
+  ],
+  "SUSPENSION": [
+      {
+        "label": "FRONT AIR SPRINGS:",
+        "content": "Check wear and/or leaks"
+      },
+      {
+        "label": "REAR AIR SPRINGS:",
+        "content": "Check wear and/or leaks"
+      },
+      {
+        "label": "FRONT SHOCKS:",
+        "content": "Inspect for leaks and that all components are secure"
+      },
+      {
+        "label": "REAR SHOCKS:",
+        "content": "Inspect for leaks and that all components are secure"
+      },
+      {
+        "label": "RIDE HEIGHT:",
+        "content": "Check level"
+      }
+  ],
+  "TIRES AND WHEELS": [
+      {
+        "label": "TIRES:",
+        "content":
+          "Check for wear and damage, check and adjust air pressure (refer to tire manufacturer's manual for recommended air pressure settings)"
+      },
+      {
+        "label": "WHEELS:",
+        "content":
+          "Wheel nuts/torque to 450–500 lbs. ft. (tighten after first 50 miles and 50 miles after each time a wheel is serviced)"
+      }
+  ]
+}

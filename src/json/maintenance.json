@@ -1,0 +1,42 @@
+{
+  "Every 3 months or 5,000 miles": [
+    "(INITIALLY) Check all belts and tensioners - retention belts if necessary",
+    "(INITIALLY) Check all hoses and clamps including CAC system",
+    "Lubricate driveshaft - grease - NLGI #2 or equivalent when motorhome is in regular use. NOTE: If motorhome is stored, lube driveshaft annually",
+    "Lubricate engine cooling fan drive shaft (chassis with mechanical driven engine cooling fan) - grease - NLGI #2 or equivalent when motorhome is in regular use. NOTE: if motorhome is stored, lube fan driveshaft annually"
+  ],
+  "Every 6 months or 15,000 miles": [
+    "Replace engine oil and filter (Reference engine manufacturer's manual)",
+    "Replace fuel filter(s) (Reference engine manufacturer's manual)",
+    "Replace coolant filter (Reference engine manufacturer's manual)"
+  ],
+  "Every 12 months or 15,000 miles": [
+    "(AFTER INITIAL) Check all belts and tensioners - retention belts if necessary",
+    "(AFTER INITIAL) Check all hoses and clamps including CAC system",
+    "Drain gear box for engine cooling fan. Clean magnetic pipe plug in the bottom of the reducer at each oil change. (SHC 75W90 Synthetic Oil)",
+    "Replace spin-on (external) hydraulic filter element and refill reservoir (chassis with hydrostatically drive engine cooling fan) - Reference reservoir label for fluid type",
+    "Check engine coolant* - test/adjust as necessary. Refer to \"Coolant Intervals\" below",
+    "Clean radiator and CAC from debris",
+    "Clean and re-apply battery terminal protection",
+    "Check and adjust front and rear suspension ride height and perform overall inspection. (Reference suspension manufacturer's manual)",
+    "Lubricate steering linkages and shaft - grease - NLGI #2 or equivalent",
+    "Lubricate brake camshafts and slack adjusters (if equipped) - grease - NLGI #2 or equivalent",
+    "Air filter element MUST be replaced when the restrictor indicator shows restriction, or annually, whichever occurs first",
+    "Clean all heat discharger cores (radiator, charge air cooler, hydraulic, oil cooler, a/c condensor)"
+  ],
+  "200,000 miles": [
+    "Change DEF filter (Reference engine manufacturer's manual)"
+  ],
+  "Coolant intervals": [
+    "Check ELC* every 12 months, adding extender at 36 months, and replacing at 72 months",
+    "*Extended Life Coolant (ELC): check coolant quality by taking a sample from the surge tank and visually inspecting for any deposits. If color is close to the original color and no deposits are found, coolant is suitable to be run to the next maintenance interval. If coolant quality checks OK, check freeze point and adjust as necessary"
+  ],
+  "Manufacturer's tire inflation": [
+    {
+      "Goodyear's Recommendations": "https://www.goodyearrvtires.com/tire-inflation-loading.aspx"
+    },
+    {
+      "Michelin's Recommendations": "https://www.michelinrvtires.com/reference-materials/load-and-inflation-tables/#/"
+    }
+  ]
+}

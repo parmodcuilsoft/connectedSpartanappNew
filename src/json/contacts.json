@@ -1,0 +1,42 @@
+{
+  "Support": [
+    {
+      "name": "Spartan Customer and Product Support",
+      "phone": "(800) 543-4277",
+      "email": "rvcustomerservice@spartanrvchassis.com"
+    }
+  ],
+  "Parts": [
+    {
+      "name": "Spartan Parts and Accessories",
+      "phone": "(800) 722-3025",
+      "email": "serviceparts@spartanrvchassis.com"
+    }
+  ],
+  "Service": [
+    {
+      "name": "Schedule a Factory Service Appointment",
+      "phone": "(866) 383-3695",
+      "email": "charlottefsr@spartanrvchassis.com"
+    }
+  ],
+  "Coach-Net": [
+    {
+      "name": "Roadside Assistance for All Units Except Entegra Coach",
+      "phone": "(888) 890-1741",
+      "email": ""
+    },
+    {
+      "name": "Roadside Assistance for Entegra Coach",
+      "phone": "(800) 579-6453",
+      "email": ""
+    }
+  ],
+  "Training Academy": [
+    {
+      "name": "Training Academy",
+      "phone": "(269)-361-8015",
+      "email": ""
+    }
+  ]
+}

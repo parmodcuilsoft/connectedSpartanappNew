@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "35891614158",
+    "firebase_url": "https://connected-care-app.firebaseio.com",
+    "project_id": "connected-care-app",
+    "storage_bucket": "connected-care-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35891614158:android:5af01f76371f0b26121b9f",
+        "android_client_info": {
+          "package_name": "com.connectedcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35891614158-rlieakd7jlkjqva4edhr7cdr27f7m2bd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.connectedcare",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "35891614158-0tbr219mq9nttf948iflcrrbihpr6pd0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZdozWhqmFSwM6a_vqV2JnHyXygw9jUnU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35891614158-0tbr219mq9nttf948iflcrrbihpr6pd0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "35891614158-9jf4i2q2nne0h7nfdl4n43a2dvcjmtt9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.coatesinc.scc",
+                "app_store_id": "1056474207"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35891614158:android:5f22e1823167ca6d121b9f",
+        "android_client_info": {
+          "package_name": "com.spartanmotors.connectedcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35891614158-0tbr219mq9nttf948iflcrrbihpr6pd0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZdozWhqmFSwM6a_vqV2JnHyXygw9jUnU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35891614158-0tbr219mq9nttf948iflcrrbihpr6pd0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "35891614158-9jf4i2q2nne0h7nfdl4n43a2dvcjmtt9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.coatesinc.scc",
+                "app_store_id": "1056474207"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
