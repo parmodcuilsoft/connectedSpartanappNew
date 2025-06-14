@@ -8,9 +8,9 @@ import CustomIcon from '../../customIcon';
 const TopBarStyle = {
   backgroundColor: '#484849',
   width: '100%',
-  height: 42,
   flexDirection: 'row',
   justifyContent: 'space-between',
+  paddingVertical: 8,
 };
 
 const HamburgerWrapStyle = {

@@ -8,7 +8,6 @@ let fitContentsToScreen = {
   flex: 1,
   height: '100%',
   backgroundColor: '#484849',
-  paddingTop:28
 };
 
 const pages = {

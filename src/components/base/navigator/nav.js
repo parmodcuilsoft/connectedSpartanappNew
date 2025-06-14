@@ -19,6 +19,8 @@ import MaintenanceScreen from "../../pages/MaintenancePage";
 import RallyScreen from "../../pages/RallyPage";
 import WarrantyScreen from "../../pages/WarrantyPage";
 import PDF_SCREEN from "../../pages/PdfPage";
+import ServiceCenterSurveyPage from '../../pages/ServiceCenterSurveyPage';
+
 
 // Import screensrrr
 // import {
@@ -90,6 +92,20 @@ const PartsLabel = () => {
       </View>
       <View style={styles.labelWrapper}>
         <Text style={styles.labelStyle}>Parts and Accessories</Text>
+      </View>
+    </View>
+  );
+};
+
+
+const ServiceCenterSurveyLabel = () => {
+  return (
+    <View style={styles.inLine}>
+      <View style={styles.iconWrapper}>
+        <Image resizeMode="contain" style={{ width: 30, height: 35 }} source={require('../../../assets/survey.png')} />
+      </View>
+      <View style={styles.labelWrapper}>
+        <Text style={styles.labelStyle}>Service Center Survey</Text>
       </View>
     </View>
   );
@@ -328,13 +344,23 @@ const AppNavigator = () => {
           drawerLabel: () => createDrawerItem('Warranty Information', 'shield-outline', 28),
         }}
       />
-      {/* <Drawer.Screen
+      
+      <Drawer.Screen
         name="Service Center Survey"
-        component={ServiceCenterSurvey}
+        component={ServiceCenterSurveyPage}
         options={{
-          drawerLabel: () => createDrawerItem('Service Center Survey', 'survey', 28),
+          drawerItemStyle: {
+            width: '100%',
+            borderBottomWidth: 1,
+            borderBottomColor: '#000',
+            marginLeft: 0,
+            paddingLeft: 0,
+          },
+          headerShown: false,
+          drawerLabel: ServiceCenterSurveyLabel,
         }}
-      /> */}
+      />
+
       <Drawer.Screen
         name="Spartan Merchandise"
         component={SpartanMerchandisePageScreen}
