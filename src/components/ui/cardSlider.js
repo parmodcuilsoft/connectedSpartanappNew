@@ -5,6 +5,7 @@ import { parse, isAfter } from 'date-fns';
 
 import { withEvents } from '../apis';
 import { MapBack, ShowCard } from '.';
+import { decode } from 'html-entities';
 
 // Styling
 import cardSliderTheme from '../../styles/cardSliderTheme';
@@ -32,21 +33,23 @@ const CardSlider = ({ events, updateEvents, goToRallies = () => { } }) => {
               horizontal={true}
               data={filteredEvents}
               keyExtractor={item => item.Title}
-              renderItem={({ item }) => (
-                <View style={content}>
-                  <ShowCard
-                    title={item.Title}
-                    location={item.Location}
-                    start={item.StartDate}
-                    end={item.EndDate}
-                    parts={item.Parts}
-                    service={item.Service}
-                    training={item.Training}
-                    description={item.Description}
-                    link={item.Link}
-                  />
+              renderItem={({ item }) => {
+                return (
+                  <View style={content}>
+                    <ShowCard
+                      title={decode(item.Title) || "..."}
+                      location={item.Location}
+                      start={item.StartDate}
+                      end={item.EndDate}
+                      parts={item.Parts}
+                      service={item.Service}
+                      training={item.Training}
+                      description={item.Description}
+                      link={item.Link}
+                    />
                 </View>
-              )}
+                );
+              }}
             />
             <Button
               title="See all"
