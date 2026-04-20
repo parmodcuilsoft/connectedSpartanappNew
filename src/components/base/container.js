@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import Navigator from '../base/navigator/nav'; // Ensure this matches the path to your nav file
 import { setScreen } from '../apis';
 
@@ -21,9 +22,11 @@ const Container = () => {
   // };
 
   return (
-    <NavigationContainer>
-      <Navigator />
-    </NavigationContainer>
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <NavigationContainer>
+        <Navigator />
+      </NavigationContainer>
+    </GestureHandlerRootView>
   );
 };
 

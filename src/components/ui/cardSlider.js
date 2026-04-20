@@ -15,13 +15,14 @@ const content = { paddingLeft: 20 };
 const CardSlider = ({ events, updateEvents, goToRallies = () => { } }) => {
 
   const filteredEvents =
-    events &&
-    events.filter(event => {
-      const startDate = parse(event.StartDate, 'MM/dd/yyyy', new Date()); // Parse using date-fns
-      const currentDate = new Date();
-      return isAfter(startDate, currentDate);
-    });
-
+  events &&
+  events
+    .map(event => ({
+      ...event,
+      parsedDate: parse(event.StartDate, 'MM/dd/yyyy', new Date())
+    }))
+    .filter(event => isAfter(event.parsedDate, new Date()))
+    .sort((a, b) => a.parsedDate - b.parsedDate);    
 
   return (
     <ThemeProvider theme={cardSliderTheme}>

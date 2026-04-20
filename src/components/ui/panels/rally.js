@@ -21,8 +21,12 @@ const Rally = ({ update, events }) => {
       <View>
         <View style={containerStyle}>
           <ShowList
-            shows={events.filter(event =>
+           shows={events
+            .filter(event =>
               isAfter(parse(event.StartDate, dateFormat, new Date()), currentDate)
+            )
+            .sort((a, b) =>
+              parse(a.StartDate, dateFormat, new Date()) - parse(b.StartDate, dateFormat, new Date())
             )}
           />
         </View>
